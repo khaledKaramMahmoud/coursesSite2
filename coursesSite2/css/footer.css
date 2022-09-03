@@ -1,0 +1,86 @@
+/* questions */
+
+.qustionios h3 {
+    color: #00028c;
+}
+
+.ques span {
+    color: #010059;
+}
+
+.ques i {
+    cursor: pointer;
+    color: #010059;
+}
+
+.answer {
+    height: 0;
+    overflow: auto;
+    transition: var(--mainTransition);
+    color: #00028c;
+}
+
+.show {
+    height: 50px;
+}
+
+
+/* footer */
+
+.footer {
+    background: #010059;
+    color: var(--white);
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.footer_links,
+.footer_icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.footer_icon {
+    color: var(--white);
+    font-size: 1.8rem;
+    margin-right: 1rem;
+    transition: var(--mainTransition);
+}
+
+.footer_icon:hover {
+    color: var(--white);
+    transform: translateY(-15%);
+}
+
+.copyright {
+    text-transform: capitalize;
+    letter-spacing: var(--mainSpacing);
+}
+
+@media only screen and (min-width: 600px) {
+    .footer-contact {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .footer-contact {
+        max-width: unset;
+        margin: unset;
+    }
+}
+
+.btn-footer .btn {
+    color: var(--white);
+    transition: var(--mainTransition);
+}
+
+.btn-footer .btn:hover {
+    color: var(--white);
+    /* background: var(--secondaryColor); */
+    border: 1px solid var(--offWhite);
+}
