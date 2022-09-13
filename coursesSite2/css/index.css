@@ -113,11 +113,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 2rem;
 }
 
 .header-details .text-block {
-    margin-top: 0.5rem;
+    margin-top: 2rem;
     line-height: 0px;
     width: 60%;
 }
@@ -141,14 +140,11 @@
 
 .header-details .image-block {
     width: 40%;
-    position: relative;
+    margin-right: 1em;
 }
 
 .header-details .image-block img {
     display: block;
-    position: absolute;
-    z-index: -1;
-    top: -3rem;
 }
 
 .header-info {
@@ -269,21 +265,8 @@
 }
 
 @media only screen and (min-width: 570px) {
-    .header-details .text-block {
-        width: 60%;
-    }
-    .header-details .text-block h1 {
-        font-size: 35px;
-        line-height: 1.5;
-    }
-    .header-details .image-block {
-        width: 30%;
-    }
-    .header-info button {
-        width: 50%;
-    }
-    .header-info h4 {
-        width: 60%;
+    .header-details .image-block img {
+        height: 55vh;
     }
     .calendar {
         width: 60%;
@@ -298,7 +281,8 @@
         font-size: 20px;
     }
     .header-details .image-block img {
-        top: -2.5rem;
+        height: 60vh;
+        margin-left: 3em;
     }
     .calendar {
         width: 50%;
@@ -370,6 +354,10 @@
     .header {
         width: 55%;
         margin-left: 10rem;
+    }
+    .header-details .image-block img {
+        height: 65vh;
+        margin-left: 3em;
     }
     .break section {
         width: 40%;
